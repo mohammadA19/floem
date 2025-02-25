@@ -137,7 +137,8 @@ impl CursorMode {
 /// keep you on the same side of the hint, `let j<: String>| =`.
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 #[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
-pub enum CursorAffinity {
+public enum CursorAffinity
+{
     /// `<: String>|`
     Forward,
     /// `|<: String>`

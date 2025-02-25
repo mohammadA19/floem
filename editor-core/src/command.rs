@@ -5,7 +5,8 @@ use crate::movement::{LinePosition, Movement};
 #[derive(
     Display, EnumString, EnumIter, Clone, PartialEq, Eq, Debug, EnumMessage, IntoStaticStr,
 )]
-pub enum EditCommand {
+public enum EditCommand
+{
     #[strum(message = "Move Line Up")]
     #[strum(serialize = "move_line_up")]
     MoveLineUp,
@@ -152,7 +153,8 @@ impl EditCommand {
 #[derive(
     Display, EnumString, EnumIter, Clone, PartialEq, Eq, Debug, EnumMessage, IntoStaticStr,
 )]
-pub enum MoveCommand {
+public enum MoveCommand
+{
     #[strum(message = "Down")]
     #[strum(serialize = "down")]
     Down,
@@ -256,7 +258,8 @@ impl MoveCommand {
 #[derive(
     Display, EnumString, EnumIter, Clone, PartialEq, Eq, Debug, EnumMessage, IntoStaticStr,
 )]
-pub enum ScrollCommand {
+public enum ScrollCommand
+{
     #[strum(message = "Page Up")]
     #[strum(serialize = "page_up")]
     PageUp,
@@ -283,7 +286,8 @@ pub enum ScrollCommand {
 #[derive(
     Display, EnumString, EnumIter, Clone, PartialEq, Eq, Debug, EnumMessage, IntoStaticStr,
 )]
-pub enum FocusCommand {
+public enum FocusCommand
+{
     #[strum(message = "Split Vertical")]
     #[strum(serialize = "split_vertical")]
     SplitVertical,
@@ -467,7 +471,8 @@ pub enum FocusCommand {
 #[derive(
     Display, EnumString, EnumIter, Clone, PartialEq, Eq, Debug, EnumMessage, IntoStaticStr,
 )]
-pub enum MotionModeCommand {
+public enum MotionModeCommand
+{
     #[strum(message = "Motion Mode Delete")]
     #[strum(serialize = "motion_mode_delete")]
     MotionModeDelete,
@@ -485,7 +490,8 @@ pub enum MotionModeCommand {
 #[derive(
     Display, EnumString, EnumIter, Clone, PartialEq, Eq, Debug, EnumMessage, IntoStaticStr,
 )]
-pub enum MultiSelectionCommand {
+public enum MultiSelectionCommand
+{
     #[strum(message = "Select Undo")]
     #[strum(serialize = "select_undo")]
     SelectUndo,

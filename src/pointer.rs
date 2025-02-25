@@ -76,7 +76,8 @@ impl PointerButton {
 }
 
 #[derive(Debug, Clone, PartialEq, Eq, Copy, Hash, Ord, PartialOrd)]
-pub enum MouseButton {
+public enum MouseButton
+{
     Primary,
     Secondary,
     Auxiliary,

@@ -261,7 +261,8 @@ impl WrapMethod {
 #[derive(Debug, Default, Clone, Copy, PartialEq, Eq)]
 #[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
 #[cfg_attr(feature = "serde", serde(rename_all = "kebab-case"))]
-pub enum RenderWhitespace {
+public enum RenderWhitespace
+{
     #[default]
     None,
     All,

@@ -2,7 +2,8 @@ use lapce_xi_rope::Rope;
 
 /// The direction to snap. Left is used when moving left, Right when moving right.
 /// Nearest is used for mouse selection.
-pub enum SnapDirection {
+public enum SnapDirection
+{
     Left,
     Right,
     Nearest,

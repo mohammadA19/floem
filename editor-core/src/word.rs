@@ -7,7 +7,8 @@ use crate::{
 
 /// Describe char classifications used to compose word boundaries
 #[derive(Copy, Clone, PartialEq, Eq)]
-pub enum CharClassification {
+public enum CharClassification
+{
     /// Carriage Return (`r`)
     Cr,
     /// Line feed (`\n`)

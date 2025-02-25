@@ -48,7 +48,8 @@ enum WindowUpdate {
 /// This is used for making the window's icon bounce in the macOS dock or the equivalent of that on
 /// other platforms.
 #[derive(Default, Copy, Clone, Debug, Eq, PartialEq)]
-pub enum Urgency {
+public enum Urgency
+{
     Critical,
     Informational,
 

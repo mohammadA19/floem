@@ -35,7 +35,8 @@ impl Command {
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
-pub enum CommandExecuted {
+public enum CommandExecuted
+{
     Yes,
     No,
 }

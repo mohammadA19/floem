@@ -26,7 +26,8 @@ impl MotionMode {
 
 #[derive(Clone, PartialEq, Eq, Hash, Debug, Copy, Default, PartialOrd, Ord)]
 #[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
-pub enum VisualMode {
+public enum VisualMode
+{
     #[default]
     Normal,
     Linewise,

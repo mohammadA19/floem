@@ -9,7 +9,8 @@ use crate::cursor::ColPosition;
 /// Indicate whether a delta should be applied inside, outside non-caret selection or
 /// after a caret selection (see [`Selection::apply_delta`].
 #[derive(Copy, Clone)]
-pub enum InsertDrift {
+public enum InsertDrift
+{
     /// Indicates this edit should happen within any (non-caret) selections if possible.
     Inside,
     /// Indicates this edit should happen outside any selections if possible.

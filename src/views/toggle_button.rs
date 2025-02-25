@@ -19,7 +19,8 @@ use crate::{
 
 /// Controls the switching behavior of the switch. The corresponding style prop is [`ToggleButtonBehavior`]
 #[derive(Debug, Clone, PartialEq)]
-pub enum ToggleHandleBehavior {
+public enum ToggleHandleBehavior
+{
     /// The switch foreground item will follow the position of the cursor. The toggle event happens when the cursor passes the 50% threshold.
     Follow,
     /// The switch foreground item will "snap" from being toggled off/on when the cursor passes the 50% threshold.

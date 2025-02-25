@@ -17,7 +17,8 @@ pub struct ImageStyle {
 
 /// How the content of a replaced element, such as an img or video, should be resized to fit its container.
 /// See <https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit>.
-pub enum ObjectFit {
+public enum ObjectFit
+{
     /// The replaced content is sized to fill the element's content box.
     /// The entire object will completely fill the box.
     /// If the object's aspect ratio does not match the aspect ratio of its box, then the object will be stretched to fit.

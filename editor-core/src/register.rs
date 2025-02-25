@@ -17,7 +17,8 @@ pub struct Register {
     last_yank: RegisterData,
 }
 
-pub enum RegisterKind {
+public enum RegisterKind
+{
     Delete,
     Yank,
 }

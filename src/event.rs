@@ -12,7 +12,8 @@ use crate::{
 };
 
 /// Control whether an event will continue propagating or whether it should stop.
-pub enum EventPropagation {
+public enum EventPropagation
+{
     /// Stop event propagation and mark the event as processed
     Stop,
     /// Let event propagation continue
@@ -34,7 +35,8 @@ impl EventPropagation {
 }
 
 #[derive(Debug, Hash, PartialEq, Eq, Copy, Clone)]
-pub enum EventListener {
+public enum EventListener
+{
     /// Receives [`Event::KeyDown`]
     KeyDown,
     /// Receives [`Event::KeyUp`]

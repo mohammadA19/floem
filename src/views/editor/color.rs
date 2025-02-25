@@ -1,7 +1,8 @@
 use strum_macros::{Display, EnumIter, EnumString, IntoStaticStr};
 
 #[derive(Display, EnumString, EnumIter, IntoStaticStr, Debug, Clone, Copy, PartialEq, Eq)]
-pub enum EditorColor {
+public enum EditorColor
+{
     #[strum(serialize = "editor.background")]
     Background,
     #[strum(serialize = "editor.scroll_bar")]

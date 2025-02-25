@@ -34,7 +34,8 @@ use crate::views::editor::{
 use super::{Editor, CHAR_WIDTH};
 
 #[derive(Clone, Copy, PartialEq, Eq)]
-pub enum DiffSectionKind {
+public enum DiffSectionKind
+{
     NoCode,
     Added,
     Removed,

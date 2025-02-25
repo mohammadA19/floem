@@ -372,7 +372,8 @@ impl MacOSWindowConfig {
 /// as a modifier key rather than in character compose key.  This is a proxy
 /// for winit's [OptionAsAlt](https://docs.rs/winit/latest/winit/platform/macos/enum.OptionAsAlt.html).
 #[derive(Default, Debug, Clone, Copy, PartialEq, Eq)]
-pub enum MacOsOptionAsAlt {
+public enum MacOsOptionAsAlt
+{
     OnlyLeft,
     OnlyRight,
     Both,

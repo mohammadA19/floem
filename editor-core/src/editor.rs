@@ -45,7 +45,8 @@ fn format_start_end(
 }
 
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
-pub enum EditType {
+public enum EditType
+{
     InsertChars,
     Delete,
     DeleteSelection,

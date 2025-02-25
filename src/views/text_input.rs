@@ -114,14 +114,16 @@ pub struct TextInput {
 }
 
 #[derive(Clone, Copy, Debug)]
-pub enum Movement {
+public enum Movement
+{
     Glyph,
     Word,
     Line,
 }
 
 #[derive(Clone, Copy, Debug)]
-pub enum TextDirection {
+public enum TextDirection
+{
     Left,
     Right,
 }

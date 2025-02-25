@@ -14,7 +14,8 @@ use serde::{Deserialize, Serialize};
 use crate::OS_MOD;
 
 #[derive(Deserialize, Serialize, Clone, Copy, PartialEq, Eq, Debug)]
-pub enum AppTheme {
+public enum AppTheme
+{
     FollowSystem,
     DarkMode,
     LightMode,

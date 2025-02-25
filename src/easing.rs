@@ -22,7 +22,8 @@ impl Easing for Linear {
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
-pub enum StepPosition {
+public enum StepPosition
+{
     None,
     Both,
     Start,

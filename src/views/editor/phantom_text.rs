@@ -28,7 +28,8 @@ pub struct PhantomText {
 }
 
 #[derive(Debug, Clone, Copy, Ord, Eq, PartialEq, PartialOrd)]
-pub enum PhantomTextKind {
+public enum PhantomTextKind
+{
     /// Input methods
     Ime,
     Placeholder,

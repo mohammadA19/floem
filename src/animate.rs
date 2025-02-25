@@ -316,7 +316,8 @@ pub(crate) enum AnimState {
 
 #[derive(Debug, PartialEq, Eq, Clone, Copy)]
 /// Represents the different states an animation can be in.
-pub enum AnimStateKind {
+public enum AnimStateKind
+{
     /// The animation is idle and has not started yet.
     Idle,
     /// The animation is paused and can be resumed.
@@ -335,7 +336,8 @@ pub enum AnimStateKind {
 
 #[derive(Debug, PartialEq, Eq, Clone, Copy)]
 /// Commands to control the state of an animation
-pub enum AnimStateCommand {
+public enum AnimStateCommand
+{
     /// Pause the animation
     Pause,
     /// Resume the animation

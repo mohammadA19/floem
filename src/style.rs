@@ -1373,7 +1373,8 @@ impl Debug for Style {
 }
 
 #[derive(Copy, Clone, Debug, Eq, PartialEq, Hash)]
-pub enum StyleSelector {
+public enum StyleSelector
+{
     Hover,
     Focus,
     FocusVisible,
@@ -1460,20 +1461,23 @@ impl StyleSelectors {
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
-pub enum PointerEvents {
+public enum PointerEvents
+{
     Auto,
     None,
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
-pub enum TextOverflow {
+public enum TextOverflow
+{
     Wrap,
     Clip,
     Ellipsis,
 }
 
 #[derive(Debug, Clone, Copy, PartialEq)]
-pub enum CursorStyle {
+public enum CursorStyle
+{
     Default,
     Pointer,
     Text,
